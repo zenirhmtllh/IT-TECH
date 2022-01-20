@@ -1,0 +1,109 @@
+
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html *{
+	font-family: 'Rationale', sans-serif;
+}
+
+.bg-light {
+  background: linear-gradient(to right, #9293B9, #B8748C); 
+}
+
+body {
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #9491b6, #58C2FE);
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 54px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.search-container {
+  float: left;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* topnav*/
+
+* {box-sizing: border-box;}
+
+.form-nama{
+font: black;
+border-bottom: 2px solid gray;
+border-top: none;
+border-left: none;
+border-right: none;
+width:100%;
+background: none;
+color: black;
+width: 350%;
+}
+
+.simpan{
+color: white;
+background-color: #E09B9B;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+align-content: center;
+width: 100%;
+margin-top:10;
+border: none;
+}
+
+/*pop up form*/
+
+.modal-header,.modal-body,.modal-footer{
+	color:white;
+}
+
+.modal-header h4{
+	text-align: center;
+}
+
+.form-pass{
+opacity: 0.5;
+border-bottom: 2px solid white;
+border-top: none;
+border-left: none;
+border-right: none;
+width:100%;
+background: none;
+color: white;
+}
+
+.btn btn-default{
+	background: #E09B9B;
+border-radius: 10px;
+}
+
+.modal-body img{
+  background: white;
+}
+

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html *{
+	font-family: 'Rationale', sans-serif;
+}
+
+.bg-light {
+  background: linear-gradient(to right, #9293B9, #B8748C); 
+}
+
+body {
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #9491b6, #58C2FE);
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 54px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.search-container {
+  float: left;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* topnav*/
+
+* {box-sizing: border-box;}
+.div #cot{
+	width: 1000px;
+}
